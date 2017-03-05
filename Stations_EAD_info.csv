@@ -1,0 +1,226 @@
+Site,Site Type,Latitude,Longitude,Emirate,Authority,Pollutant
+Hamdan Street,Urban Traffic,24.488928,54.36372,Abu Dhabi,EAD,SO2
+Hamdan Street,Urban Traffic,24.488928,54.36372,Abu Dhabi,EAD,NO2
+Hamdan Street,Urban Traffic,24.488928,54.36372,Abu Dhabi,EAD,CO
+Hamdan Street,Urban Traffic,24.488928,54.36372,Abu Dhabi,EAD,PM10
+Hamdan Street,Urban Traffic,24.488928,54.36372,Abu Dhabi,EAD,PM2.5
+Hamdan Street,Urban Traffic,24.488928,54.36372,Abu Dhabi,EAD,Lower Ambient Temperature
+Hamdan Street,Urban Traffic,24.488928,54.36372,Abu Dhabi,EAD,Upper Ambient Temperature
+Hamdan Street,Urban Traffic,24.488928,54.36372,Abu Dhabi,EAD,Wind Direction
+Hamdan Street,Urban Traffic,24.488928,54.36372,Abu Dhabi,EAD,Wind Speed
+Hamdan Street,Urban Traffic,24.488928,54.36372,Abu Dhabi,EAD,Toluene
+Hamdan Street,Urban Traffic,24.488928,54.36372,Abu Dhabi,EAD,O_Xylene
+Hamdan Street,Urban Traffic,24.488928,54.36372,Abu Dhabi,EAD,EthylBenzene
+Hamdan Street,Urban Traffic,24.488928,54.36372,Abu Dhabi,EAD,mp_xylene_
+Hamdan Street,Urban Traffic,24.488928,54.36372,Abu Dhabi,EAD,Benzene
+Hamdan Street,Urban Traffic,24.488928,54.36372,Abu Dhabi,EAD,Noise
+Khadeja Primary School,Urban Background,24.481558,54.36933,Abu Dhabi,EAD,SO2
+Khadeja Primary School,Urban Background,24.481558,54.36933,Abu Dhabi,EAD,NO2
+Khadeja Primary School,Urban Background,24.481558,54.36933,Abu Dhabi,EAD,O3
+Khadeja Primary School,Urban Background,24.481558,54.36933,Abu Dhabi,EAD,PM10
+Khadeja Primary School,Urban Background,24.481558,54.36933,Abu Dhabi,EAD,PM2.5
+Khadeja Primary School,Urban Background,24.481558,54.36933,Abu Dhabi,EAD,Lower Ambient Temperature
+Khadeja Primary School,Urban Background,24.481558,54.36933,Abu Dhabi,EAD,Wind Direction
+Khadeja Primary School,Urban Background,24.481558,54.36933,Abu Dhabi,EAD,Wind Speed
+Khadeja Primary School,Urban Background,24.481558,54.36933,Abu Dhabi,EAD,H2S
+Khalifa High School,Suburban Background,24.430092,54.40843,Abu Dhabi,EAD,SO2
+Khalifa High School,Suburban Background,24.430092,54.40843,Abu Dhabi,EAD,NO2
+Khalifa High School,Suburban Background,24.430092,54.40843,Abu Dhabi,EAD,O3
+Khalifa High School,Suburban Background,24.430092,54.40843,Abu Dhabi,EAD,PM10
+Khalifa High School,Suburban Background,24.430092,54.40843,Abu Dhabi,EAD,PM2.5
+Khalifa High School,Suburban Background,24.430092,54.40843,Abu Dhabi,EAD,Lower Ambient Temperature
+Khalifa High School,Suburban Background,24.430092,54.40843,Abu Dhabi,EAD,RelativeHumidity
+Khalifa High School,Suburban Background,24.430092,54.40843,Abu Dhabi,EAD,Wind Direction
+Khalifa High School,Suburban Background,24.430092,54.40843,Abu Dhabi,EAD,Wind Speed
+Khalifa High School,Suburban Background,24.430092,54.40843,Abu Dhabi,EAD,H2S
+Khalifa High School,Suburban Background,24.430092,54.40843,Abu Dhabi,EAD,Noise
+Mussafah,Suburban Industrial,24.3472,54.50288,Abu Dhabi,EAD,SO2
+Mussafah,Suburban Industrial,24.3472,54.50288,Abu Dhabi,EAD,NO2
+Mussafah,Suburban Industrial,24.3472,54.50288,Abu Dhabi,EAD,PM10
+Mussafah,Suburban Industrial,24.3472,54.50288,Abu Dhabi,EAD,PM2.5
+Mussafah,Suburban Industrial,24.3472,54.50288,Abu Dhabi,EAD,Lower Ambient Temperature
+Mussafah,Suburban Industrial,24.3472,54.50288,Abu Dhabi,EAD,Upper Ambient Temperature
+Mussafah,Suburban Industrial,24.3472,54.50288,Abu Dhabi,EAD,Wind Direction
+Mussafah,Suburban Industrial,24.3472,54.50288,Abu Dhabi,EAD,Wind Speed
+Mussafah,Suburban Industrial,24.3472,54.50288,Abu Dhabi,EAD,H2S
+Mussafah,Suburban Industrial,24.3472,54.50288,Abu Dhabi,EAD,Noise
+Baniyas School,Suburban Background,24.321339,54.63593,Abu Dhabi,EAD,SO2
+Baniyas School,Suburban Background,24.321339,54.63593,Abu Dhabi,EAD,NO2
+Baniyas School,Suburban Background,24.321339,54.63593,Abu Dhabi,EAD,O3
+Baniyas School,Suburban Background,24.321339,54.63593,Abu Dhabi,EAD,PM10
+Baniyas School,Suburban Background,24.321339,54.63593,Abu Dhabi,EAD,PM2.5
+Baniyas School,Suburban Background,24.321339,54.63593,Abu Dhabi,EAD,Lower Ambient Temperature
+Baniyas School,Suburban Background,24.321339,54.63593,Abu Dhabi,EAD,Upper Ambient Temperature
+Baniyas School,Suburban Background,24.321339,54.63593,Abu Dhabi,EAD,Barometric Pressure
+Baniyas School,Suburban Background,24.321339,54.63593,Abu Dhabi,EAD,RelativeHumidity
+Baniyas School,Suburban Background,24.321339,54.63593,Abu Dhabi,EAD,Wind Direction
+Baniyas School,Suburban Background,24.321339,54.63593,Abu Dhabi,EAD,Wind Speed
+Baniyas School,Suburban Background,24.321339,54.63593,Abu Dhabi,EAD,H2S
+Baniyas School,Suburban Background,24.321339,54.63593,Abu Dhabi,EAD,Noise
+Al Ain Islamic Ins,Suburban Background,24.219058,55.734864,Abu Dhabi,EAD,SO2
+Al Ain Islamic Ins,Suburban Background,24.219058,55.734864,Abu Dhabi,EAD,NO2
+Al Ain Islamic Ins,Suburban Background,24.219058,55.734864,Abu Dhabi,EAD,O3
+Al Ain Islamic Ins,Suburban Background,24.219058,55.734864,Abu Dhabi,EAD,PM10
+Al Ain Islamic Ins,Suburban Background,24.219058,55.734864,Abu Dhabi,EAD,PM2.5
+Al Ain Islamic Ins,Suburban Background,24.219058,55.734864,Abu Dhabi,EAD,Lower Ambient Temperature
+Al Ain Islamic Ins,Suburban Background,24.219058,55.734864,Abu Dhabi,EAD,Wind Direction
+Al Ain Islamic Ins,Suburban Background,24.219058,55.734864,Abu Dhabi,EAD,Wind Speed
+Al Ain Islamic Ins,Suburban Background,24.219058,55.734864,Abu Dhabi,EAD,H2S
+Al Ain Islamic Ins,Suburban Background,24.219058,55.734864,Abu Dhabi,EAD,Noise
+Al Ain Street,Urban Traffic,24.225858,55.76583,Abu Dhabi,EAD,SO2
+Al Ain Street,Urban Traffic,24.225858,55.76583,Abu Dhabi,EAD,NO2
+Al Ain Street,Urban Traffic,24.225858,55.76583,Abu Dhabi,EAD,CO
+Al Ain Street,Urban Traffic,24.225858,55.76583,Abu Dhabi,EAD,PM10
+Al Ain Street,Urban Traffic,24.225858,55.76583,Abu Dhabi,EAD,PM2.5
+Al Ain Street,Urban Traffic,24.225858,55.76583,Abu Dhabi,EAD,Lower Ambient Temperature
+Al Ain Street,Urban Traffic,24.225858,55.76583,Abu Dhabi,EAD,Upper Ambient Temperature
+Al Ain Street,Urban Traffic,24.225858,55.76583,Abu Dhabi,EAD,Wind Direction
+Al Ain Street,Urban Traffic,24.225858,55.76583,Abu Dhabi,EAD,Wind Speed
+Al Ain Street,Urban Traffic,24.225858,55.76583,Abu Dhabi,EAD,H2S
+Al Ain Street,Urban Traffic,24.225858,55.76583,Abu Dhabi,EAD,Toluene
+Al Ain Street,Urban Traffic,24.225858,55.76583,Abu Dhabi,EAD,O_Xylene
+Al Ain Street,Urban Traffic,24.225858,55.76583,Abu Dhabi,EAD,EthylBenzene
+Al Ain Street,Urban Traffic,24.225858,55.76583,Abu Dhabi,EAD,mp_xylene_
+Al Ain Street,Urban Traffic,24.225858,55.76583,Abu Dhabi,EAD,Benzene
+Bida Zayed,Suburban Background,23.652264,53.70389,Abu Dhabi,EAD,SO2
+Bida Zayed,Suburban Background,23.652264,53.70389,Abu Dhabi,EAD,NO2
+Bida Zayed,Suburban Background,23.652264,53.70389,Abu Dhabi,EAD,O3
+Bida Zayed,Suburban Background,23.652264,53.70389,Abu Dhabi,EAD,PM10
+Bida Zayed,Suburban Background,23.652264,53.70389,Abu Dhabi,EAD,PM2.5
+Bida Zayed,Suburban Background,23.652264,53.70389,Abu Dhabi,EAD,Lower Ambient Temperature
+Bida Zayed,Suburban Background,23.652264,53.70389,Abu Dhabi,EAD,Upper Ambient Temperature
+Bida Zayed,Suburban Background,23.652264,53.70389,Abu Dhabi,EAD,Wind Direction
+Bida Zayed,Suburban Background,23.652264,53.70389,Abu Dhabi,EAD,Wind Speed
+Bida Zayed,Suburban Background,23.652264,53.70389,Abu Dhabi,EAD,H2S
+Bida Zayed,Suburban Background,23.652264,53.70389,Abu Dhabi,EAD,Noise
+Gayathi School,Suburban Background,23.835511,52.81033,Abu Dhabi,EAD,SO2
+Gayathi School,Suburban Background,23.835511,52.81033,Abu Dhabi,EAD,NO2
+Gayathi School,Suburban Background,23.835511,52.81033,Abu Dhabi,EAD,O3
+Gayathi School,Suburban Background,23.835511,52.81033,Abu Dhabi,EAD,PM10
+Gayathi School,Suburban Background,23.835511,52.81033,Abu Dhabi,EAD,PM2.5
+Gayathi School,Suburban Background,23.835511,52.81033,Abu Dhabi,EAD,Lower Ambient Temperature
+Gayathi School,Suburban Background,23.835511,52.81033,Abu Dhabi,EAD,Upper Ambient Temperature
+Gayathi School,Suburban Background,23.835511,52.81033,Abu Dhabi,EAD,Wind Direction
+Gayathi School,Suburban Background,23.835511,52.81033,Abu Dhabi,EAD,Wind Speed
+Gayathi School,Suburban Background,23.835511,52.81033,Abu Dhabi,EAD,H2S
+Gayathi School,Suburban Background,23.835511,52.81033,Abu Dhabi,EAD,Noise
+Liwa Oasis,Rural Background Regional,23.095786,53.60641,Abu Dhabi,EAD,SO2
+Liwa Oasis,Rural Background Regional,23.095786,53.60641,Abu Dhabi,EAD,NO2
+Liwa Oasis,Rural Background Regional,23.095786,53.60641,Abu Dhabi,EAD,O3
+Liwa Oasis,Rural Background Regional,23.095786,53.60641,Abu Dhabi,EAD,PM10
+Liwa Oasis,Rural Background Regional,23.095786,53.60641,Abu Dhabi,EAD,PM2.5
+Liwa Oasis,Rural Background Regional,23.095786,53.60641,Abu Dhabi,EAD,Lower Ambient Temperature
+Liwa Oasis,Rural Background Regional,23.095786,53.60641,Abu Dhabi,EAD,Upper Ambient Temperature
+Liwa Oasis,Rural Background Regional,23.095786,53.60641,Abu Dhabi,EAD,Wind Direction
+Liwa Oasis,Rural Background Regional,23.095786,53.60641,Abu Dhabi,EAD,Wind Speed
+Liwa Oasis,Rural Background Regional,23.095786,53.60641,Abu Dhabi,EAD,Noise
+Liwa Oasis,Suburban Industrial site downwind of industrial area.,24.090855,52.7548,Abu Dhabi,EAD,SO2
+Liwa Oasis,Suburban Industrial site downwind of industrial area.,24.090855,52.7548,Abu Dhabi,EAD,NO2
+Al Ruwais,Suburban Industrial site downwind of industrial area.,24.090855,52.7548,Abu Dhabi,EAD,O3
+Al Ruwais,Suburban Industrial site downwind of industrial area.,24.090855,52.7548,Abu Dhabi,EAD,CO
+Al Ruwais,Suburban Industrial site downwind of industrial area.,24.090855,52.7548,Abu Dhabi,EAD,PM10
+Al Ruwais,Suburban Industrial site downwind of industrial area.,24.090855,52.7548,Abu Dhabi,EAD,PM2.5
+Al Ruwais,Suburban Industrial site downwind of industrial area.,24.090855,52.7548,Abu Dhabi,EAD,Lower Ambient Temperature
+Al Ruwais,Suburban Industrial site downwind of industrial area.,24.090855,52.7548,Abu Dhabi,EAD,RelativeHumidity
+Al Ruwais,Suburban Industrial site downwind of industrial area.,24.090855,52.7548,Abu Dhabi,EAD,Wind Direction
+Al Ruwais,Suburban Industrial site downwind of industrial area.,24.090855,52.7548,Abu Dhabi,EAD,Wind Speed
+Al Ruwais,Suburban Industrial site downwind of industrial area.,24.090855,52.7548,Abu Dhabi,EAD,H2S
+Al Ruwais,Suburban Industrial site downwind of industrial area.,24.090855,52.7548,Abu Dhabi,EAD,Noise
+Habshan,Rural Industrial site downwind of industrial area.,23.750404,53.74529,Abu Dhabi,EAD,SO2
+Habshan,Rural Industrial site downwind of industrial area.,23.750404,53.74529,Abu Dhabi,EAD,NO2
+Habshan,Rural Industrial site downwind of industrial area.,23.750404,53.74529,Abu Dhabi,EAD,O3
+Habshan,Rural Industrial site downwind of industrial area.,23.750404,53.74529,Abu Dhabi,EAD,PM10
+Habshan,Rural Industrial site downwind of industrial area.,23.750404,53.74529,Abu Dhabi,EAD,PM2.5
+Habshan,Rural Industrial site downwind of industrial area.,23.750404,53.74529,Abu Dhabi,EAD,Lower Ambient Temperature
+Habshan,Rural Industrial site downwind of industrial area.,23.750404,53.74529,Abu Dhabi,EAD,RelativeHumidity
+Habshan,Rural Industrial site downwind of industrial area.,23.750404,53.74529,Abu Dhabi,EAD,Wind Direction
+Habshan,Rural Industrial site downwind of industrial area.,23.750404,53.74529,Abu Dhabi,EAD,Wind Speed
+Habshan,Rural Industrial site downwind of industrial area.,23.750404,53.74529,Abu Dhabi,EAD,H2S
+Habshan,Rural Industrial site downwind of industrial area.,23.750404,53.74529,Abu Dhabi,EAD,Noise
+E11 Road,NaN,24.035157,53.88531,Abu Dhabi,EAD,SO2
+E11 Road,NaN,24.035157,53.88531,Abu Dhabi,EAD,NO2
+E11 Road,NaN,24.035157,53.88531,Abu Dhabi,EAD,CO
+E11 Road,NaN,24.035157,53.88531,Abu Dhabi,EAD,PM10
+E11 Road,NaN,24.035157,53.88531,Abu Dhabi,EAD,PM2.5
+Bain Al Jesrain,Urban background station with impact from both industry and traffic,24.403521,54.5161,Abu Dhabi,EAD,SO2
+Bain Al Jesrain,Urban background station with impact from both industry and traffic,24.403521,54.5161,Abu Dhabi,EAD,NO2
+Bain Al Jesrain,Urban background station with impact from both industry and traffic,24.403521,54.5161,Abu Dhabi,EAD,O3
+Bain Al Jesrain,Urban background station with impact from both industry and traffic,24.403521,54.5161,Abu Dhabi,EAD,CO
+Bain Al Jesrain,Urban background station with impact from both industry and traffic,24.403521,54.5161,Abu Dhabi,EAD,PM10
+Bain Al Jesrain,Urban background station with impact from both industry and traffic,24.403521,54.5161,Abu Dhabi,EAD,PM2.5
+Bain Al Jesrain,Urban background station with impact from both industry and traffic,24.403521,54.5161,Abu Dhabi,EAD,Lower Ambient Temperature
+Bain Al Jesrain,Urban background station with impact from both industry and traffic,24.403521,54.5161,Abu Dhabi,EAD,RelativeHumidity
+Bain Al Jesrain,Urban background station with impact from both industry and traffic,24.403521,54.5161,Abu Dhabi,EAD,Wind Direction
+Bain Al Jesrain,Urban background station with impact from both industry and traffic,24.403521,54.5161,Abu Dhabi,EAD,Wind Speed
+Bain Al Jesrain,Urban background station with impact from both industry and traffic,24.403521,54.5161,Abu Dhabi,EAD,H2S
+Bain Al Jesrain,Urban background station with impact from both industry and traffic,24.403521,54.5161,Abu Dhabi,EAD,Toluene
+Bain Al Jesrain,Urban background station with impact from both industry and traffic,24.403521,54.5161,Abu Dhabi,EAD,O_Xylene
+Bain Al Jesrain,Urban background station with impact from both industry and traffic,24.403521,54.5161,Abu Dhabi,EAD,mp_xylene_
+Bain Al Jesrain,Urban background station with impact from both industry and traffic,24.403521,54.5161,Abu Dhabi,EAD,Benzene
+Bain Al Jesrain,Urban background station with impact from both industry and traffic,24.403521,54.5161,Abu Dhabi,EAD,Noise
+Khalifa City A,Suburban background station with new developments,24.419918,54.5782,Abu Dhabi,EAD,SO2
+Khalifa City A,Suburban background station with new developments,24.419918,54.5782,Abu Dhabi,EAD,NO2
+Khalifa City A,Suburban background station with new developments,24.419918,54.5782,Abu Dhabi,EAD,O3
+Khalifa City A,Suburban background station with new developments,24.419918,54.5782,Abu Dhabi,EAD,PM10
+Khalifa City A,Suburban background station with new developments,24.419918,54.5782,Abu Dhabi,EAD,PM2.5
+Khalifa City A,Suburban background station with new developments,24.419918,54.5782,Abu Dhabi,EAD,Lower Ambient Temperature
+Khalifa City A,Suburban background station with new developments,24.419918,54.5782,Abu Dhabi,EAD,RelativeHumidity
+Khalifa City A,Suburban background station with new developments,24.419918,54.5782,Abu Dhabi,EAD,Wind Direction
+Khalifa City A,Suburban background station with new developments,24.419918,54.5782,Abu Dhabi,EAD,Wind Speed
+Khalifa City A,Suburban background station with new developments,24.419918,54.5782,Abu Dhabi,EAD,H2S
+Khalifa City A,Suburban background station with new developments,24.419918,54.5782,Abu Dhabi,EAD,Noise
+Al Mafraq,Suburban Industrial area with sources to be identified,24.286284,54.588875,Abu Dhabi,EAD,SO2
+Al Mafraq,Suburban Industrial area with sources to be identified,24.286284,54.588875,Abu Dhabi,EAD,NO2
+Al Mafraq,Suburban Industrial area with sources to be identified,24.286284,54.588875,Abu Dhabi,EAD,PM10
+Al Mafraq,Suburban Industrial area with sources to be identified,24.286284,54.588875,Abu Dhabi,EAD,PM2.5
+Al Mafraq,Suburban Industrial area with sources to be identified,24.286284,54.588875,Abu Dhabi,EAD,Lower Ambient Temperature
+Al Mafraq,Suburban Industrial area with sources to be identified,24.286284,54.588875,Abu Dhabi,EAD,RelativeHumidity
+Al Mafraq,Suburban Industrial area with sources to be identified,24.286284,54.588875,Abu Dhabi,EAD,Wind Direction
+Al Mafraq,Suburban Industrial area with sources to be identified,24.286284,54.588875,Abu Dhabi,EAD,Wind Speed
+Al Mafraq,Suburban Industrial area with sources to be identified,24.286284,54.588875,Abu Dhabi,EAD,H2S
+Al Mafraq,Suburban Industrial area with sources to be identified,24.286284,54.588875,Abu Dhabi,EAD,Noise
+Sweihan,Suburban Background station to determine the incoming flux from Northern Emirates and Dubai.,24.46666,55.34288,Abu Dhabi,EAD,SO2
+Sweihan,Suburban Background station to determine the incoming flux from Northern Emirates and Dubai.,24.46666,55.34288,Abu Dhabi,EAD,NO2
+Sweihan,Suburban Background station to determine the incoming flux from Northern Emirates and Dubai.,24.46666,55.34288,Abu Dhabi,EAD,O3
+Sweihan,Suburban Background station to determine the incoming flux from Northern Emirates and Dubai.,24.46666,55.34288,Abu Dhabi,EAD,CO
+Sweihan,Suburban Background station to determine the incoming flux from Northern Emirates and Dubai.,24.46666,55.34288,Abu Dhabi,EAD,PM10
+Sweihan,Suburban Background station to determine the incoming flux from Northern Emirates and Dubai.,24.46666,55.34288,Abu Dhabi,EAD,PM2.5
+Sweihan,Suburban Background station to determine the incoming flux from Northern Emirates and Dubai.,24.46666,55.34288,Abu Dhabi,EAD,Lower Ambient Temperature
+Sweihan,Suburban Background station to determine the incoming flux from Northern Emirates and Dubai.,24.46666,55.34288,Abu Dhabi,EAD,RelativeHumidity
+Sweihan,Suburban Background station to determine the incoming flux from Northern Emirates and Dubai.,24.46666,55.34288,Abu Dhabi,EAD,Wind Direction
+Sweihan,Suburban Background station to determine the incoming flux from Northern Emirates and Dubai.,24.46666,55.34288,Abu Dhabi,EAD,Wind Speed
+Sweihan,Suburban Background station to determine the incoming flux from Northern Emirates and Dubai.,24.46666,55.34288,Abu Dhabi,EAD,Noise
+Al Tawia,"Suburban background station, Al Ain",24.259183,55.70487,Abu Dhabi,EAD,SO2
+Al Tawia,"Suburban background station, Al Ain",24.259183,55.70487,Abu Dhabi,EAD,NO2
+Al Tawia,"Suburban background station, Al Ain",24.259183,55.70487,Abu Dhabi,EAD,O3
+Al Tawia,"Suburban background station, Al Ain",24.259183,55.70487,Abu Dhabi,EAD,PM10
+Al Tawia,"Suburban background station, Al Ain",24.259183,55.70487,Abu Dhabi,EAD,PM2.5
+Al Tawia,"Suburban background station, Al Ain",24.259183,55.70487,Abu Dhabi,EAD,Lower Ambient Temperature
+Al Tawia,"Suburban background station, Al Ain",24.259183,55.70487,Abu Dhabi,EAD,RelativeHumidity
+Al Tawia,"Suburban background station, Al Ain",24.259183,55.70487,Abu Dhabi,EAD,Wind Direction
+Al Tawia,"Suburban background station, Al Ain",24.259183,55.70487,Abu Dhabi,EAD,Wind Speed
+Al Tawia,"Suburban background station, Al Ain",24.259183,55.70487,Abu Dhabi,EAD,H2S
+Al Tawia,"Suburban background station, Al Ain",24.259183,55.70487,Abu Dhabi,EAD,Noise
+Zakher,"Urban background station, Al Ain",24.163467,55.70211,Abu Dhabi,EAD,SO2
+Zakher,"Urban background station, Al Ain",24.163467,55.70211,Abu Dhabi,EAD,NO2
+Zakher,"Urban background station, Al Ain",24.163467,55.70211,Abu Dhabi,EAD,PM10
+Zakher,"Urban background station, Al Ain",24.163467,55.70211,Abu Dhabi,EAD,PM2.5
+Zakher,"Urban background station, Al Ain",24.163467,55.70211,Abu Dhabi,EAD,Lower Ambient Temperature
+Zakher,"Urban background station, Al Ain",24.163467,55.70211,Abu Dhabi,EAD,RelativeHumidity
+Zakher,"Urban background station, Al Ain",24.163467,55.70211,Abu Dhabi,EAD,Wind Direction
+Zakher,"Urban background station, Al Ain",24.163467,55.70211,Abu Dhabi,EAD,Wind Speed
+Zakher,"Urban background station, Al Ain",24.163467,55.70211,Abu Dhabi,EAD,H2S
+Zakher,"Urban background station, Al Ain",24.163467,55.70211,Abu Dhabi,EAD,Noise
+Al Qua'a,Regional Rural Background,23.531154,55.48596,Abu Dhabi,EAD,SO2
+Al Qua'a,Regional Rural Background,23.531154,55.48596,Abu Dhabi,EAD,NO2
+Al Qua'a,Regional Rural Background,23.531154,55.48596,Abu Dhabi,EAD,O3
+Al Qua'a,Regional Rural Background,23.531154,55.48596,Abu Dhabi,EAD,CO
+Al Qua'a,Regional Rural Background,23.531154,55.48596,Abu Dhabi,EAD,PM10
+Al Qua'a,Regional Rural Background,23.531154,55.48596,Abu Dhabi,EAD,PM2.5
+Al Qua'a,Regional Rural Background,23.531154,55.48596,Abu Dhabi,EAD,Lower Ambient Temperature
+Al Qua'a,Regional Rural Background,23.531154,55.48596,Abu Dhabi,EAD,Upper Ambient Temperature
+Al Qua'a,Regional Rural Background,23.531154,55.48596,Abu Dhabi,EAD,Barometric Pressure
+Al Qua'a,Regional Rural Background,23.531154,55.48596,Abu Dhabi,EAD,RelativeHumidity
+Al Qua'a,Regional Rural Background,23.531154,55.48596,Abu Dhabi,EAD,Wind Direction
+Al Qua'a,Regional Rural Background,23.531154,55.48596,Abu Dhabi,EAD,Wind Speed
+Al Qua'a,Regional Rural Background,23.531154,55.48596,Abu Dhabi,EAD,Noise

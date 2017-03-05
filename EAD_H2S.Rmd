@@ -1,0 +1,106 @@
+
+---
+title: "**H<sub>2</sub>S from Environment Agency – Abu Dhabi (EAD) stations in the UAE**"
+output:
+  html_document:
+    fig_height: 2.5
+    fig_width: 9.5
+    theme: flatly
+---
+
+```{r set_up, message = FALSE, echo = FALSE, warning = FALSE}
+library(threadr)
+library(dygraphs)
+library(tidyr)
+library(leaflet)
+library(readr)
+library(shiny)
+
+# Load custom functions
+source("get_data_EAD.R")
+
+# Time of script running
+date_generation <- str_c("Data queried at ", Sys.time(), ".")
+```
+# 
+
+## 
+```{r import_data, message = FALSE, echo = FALSE, results = "hide", cache = TRUE}
+
+# Site string
+pollutant <- "H<sub>2</sub>S"
+
+# Get data from all the station
+time_series_ALAinIslamicIns <- get_measurement_time_series("Al Ain Islamic Ins", pollutant)
+time_series_ALAinStreet <- get_measurement_time_series("Al Ain Street", pollutant)
+time_series_AlMafraq <- get_measurement_time_series("Al Mafraq", pollutant)
+time_series_AlQua0x27a <- get_measurement_time_series("Al Qua'a", pollutant)
+time_series_AlRuwais <- get_measurement_time_series("Al Ruwais", pollutant)
+time_series_AlTawia <- get_measurement_time_series("Al Tawia", pollutant)
+time_series_BainAljesrain <- get_measurement_time_series("Bain Al Jesrain", pollutant)
+time_series_baniyasSchool <- get_measurement_time_series("Baniyas School", pollutant)
+time_series_BidaZayed <- get_measurement_time_series("Bida Zayed", pollutant)
+time_series_E11Road <- get_measurement_time_series("E11 Road", pollutant)
+time_series_GayathiSchool <- get_measurement_time_series("Gayathi School", pollutant)
+time_series_Habshan <- get_measurement_time_series("Habshan", pollutant)
+time_series_HamdanStreet <- get_measurement_time_series("Hamdan Street", pollutant)
+time_series_KhadejaPrimarySchool <- get_measurement_time_series("Khadeja Primary School", pollutant)
+time_series_KhalifaCityA <- get_measurement_time_series("Khalifa City A", pollutant)
+time_series_KhalifaHighSchool <- get_measurement_time_series("Khalifa High School", pollutant)
+time_series_LiwaOasis <- get_measurement_time_series("Liwa Oasis", pollutant)
+time_series_Mussafah <- get_measurement_time_series("Mussafah", pollutant)
+time_series_Sweihan <- get_measurement_time_series("Sweihan", pollutant)
+time_series_Zakher <- get_measurement_time_series("Zakher", pollutant)
+```
+
+ `Hourly data from all the monitoring stations measuring the pollutant`
+ 
+# 
+
+## 
+
+```{r plot_EAD_LAT, echo = FALSE, cache = TRUE}
+# Message
+date_generation
+
+# Plot
+interactive_plot(time_series_ALAinIslamicIns, station = "Al Ain Islamic Ins", group =   pollutant, pollu="H2S")
+interactive_plot(time_series_ALAinStreet, station = "Al Ain Street", group = pollutant, pollu="H2S")
+interactive_plot(time_series_AlMafraq, station = "Al Mafraq", group = pollutant, pollu="H2S")
+interactive_plot(time_series_AlQua0x27a, station = "Al Qua'a", group = pollutant, pollu="H2S")
+interactive_plot(time_series_AlRuwais, station = "Al Ruwais", group = pollutant, pollu="H2S")
+interactive_plot(time_series_AlTawia, station = "Al Tawia", group = pollutant, pollu="H2S")
+interactive_plot(time_series_BainAljesrain, station = "Bain Al Jesrain", group = pollutant, pollu="H2S")
+interactive_plot(time_series_baniyasSchool, station = "Baniyas School", group = pollutant, pollu="H2S")
+interactive_plot(time_series_BidaZayed, station = "Bida Zayed", group = pollutant, pollu="H2S")
+interactive_plot(time_series_E11Road, station = "E11 Road", group = pollutant, pollu="H2S")
+interactive_plot(time_series_GayathiSchool, station = "Gayathi School", group = pollutant, pollu="H2S")
+interactive_plot(time_series_Habshan, station = "Habshan", group = pollutant, pollu="H2S")
+interactive_plot(time_series_HamdanStreet, station = "Hamdan Street", group = pollutant, pollu="H2S")
+interactive_plot(time_series_KhadejaPrimarySchool, station = "Khadeja Primary School", group = pollutant, pollu="H2S")
+interactive_plot(time_series_KhalifaCityA, station = "Khalifa City A", group = pollutant, pollu="H2S")
+interactive_plot(time_series_KhalifaHighSchool, station = "Khalifa High School", group =pollutant, pollu="H2S")
+interactive_plot(time_series_LiwaOasis, station = "Liwa Oasis", group = pollutant, pollu="H2S")
+interactive_plot(time_series_Mussafah, station = "Mussafah", group = pollutant, pollu="H2S")
+interactive_plot(time_series_Sweihan, station = "Sweihan", group = pollutant, pollu="H2S")
+interactive_plot(time_series_Zakher, station = "Zakher", group = pollutant, pollu="H2S")
+
+```
+
+
+```{r import_data_for_map, message = FALSE, echo = FALSE, results = "hide", cache = TRUE}
+# Get site locations
+coord_site <- get_sites(var = "H2S")
+
+```
+#
+ 
+##
+
+```{r map, fig.height = 8, echo = FALSE, message = FALSE, cache = TRUE}
+# Build map
+interactive_map(coord_site)
+```
+
+ 
+ 

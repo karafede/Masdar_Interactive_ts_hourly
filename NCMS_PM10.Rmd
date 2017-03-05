@@ -1,0 +1,82 @@
+
+---
+title: "**PM<sub>10</sub> from National Center of Meteorology & Seismology (NCMS) stations in the UAE**"
+output:
+  html_document:
+    fig_height: 2.5
+    fig_width: 9.5
+    theme: flatly
+---
+
+```{r set_up, message = FALSE, echo = FALSE, warning = FALSE}
+library(threadr)
+library(dygraphs)
+library(tidyr)
+library(leaflet)
+library(readr)
+library(shiny)
+
+# Load custom functions
+source("get_data_NCMS.R")
+
+# Time of script running
+date_generation <- str_c("Data queried at ", Sys.time(), ".")
+```
+# 
+
+## 
+```{r import_data, message = FALSE, echo = FALSE, results = "hide", cache = TRUE}
+
+# Site string
+pollutant <- "PM<sub>10</sub>"
+
+# Get data from all the station
+time_series_AlHamriyah <- get_measurement_time_series("Al Hamriyah", pollutant)
+time_series_Kalba <- get_measurement_time_series("Kalba", pollutant)
+time_series_Rashidyah <- get_measurement_time_series("Rashidyah",pollutant)
+time_series_ELdErLyHouse <- get_measurement_time_series("Elderly House", pollutant)
+time_series_AlJeer <- get_measurement_time_series("Al Jeer", pollutant)
+time_series_Burairat <- get_measurement_time_series("Burairat", pollutant)
+time_series_AlQasimiyah <- get_measurement_time_series("Al Qasimiyah", pollutant)
+time_series_Ghalilah <- get_measurement_time_series("Ghalilah", pollutant)
+```
+
+ `Hourly data from all the monitoring stations measuring the pollutant`
+ 
+# 
+
+## 
+
+```{r plot_NCMS_NO2, echo = FALSE, cache = TRUE}
+# Message
+date_generation
+
+# Plot
+interactive_plot(time_series_AlHamriyah, station = "Al Hamriyah", group = pollutant, pollu="PM10")
+interactive_plot(time_series_Kalba, station = "Kalba", group = pollutant, pollu="PM10")
+interactive_plot(time_series_Rashidyah, station = "Rashidyah", group = pollutant, pollu="PM10")
+interactive_plot(time_series_ELdErLyHouse, station = "Elderly House", group = pollutant, pollu="PM10")
+interactive_plot(time_series_AlJeer, station = "Al Jeer", group = pollutant, pollu="PM10")
+interactive_plot(time_series_Burairat, station = "Burairat", group = pollutant, pollu="PM10")
+interactive_plot(time_series_AlQasimiyah, station = "Al Qasimiyah", group = pollutant, pollu="PM10")
+interactive_plot(time_series_Ghalilah, station = "Ghalilah", group = pollutant, pollu="PM10")
+```
+
+
+```{r import_data_for_map, message = FALSE, echo = FALSE, results = "hide", cache = TRUE}
+# Get site locations
+
+coord_site <- get_sites(var = "PM10")
+
+```
+#
+ 
+##
+
+```{r map, fig.height = 8, echo = FALSE, message = FALSE, cache = TRUE}
+# Build map
+interactive_map(coord_site)
+```
+
+ 
+ 

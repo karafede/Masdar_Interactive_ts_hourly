@@ -1,0 +1,76 @@
+---
+output:
+  #pdf_document: default
+  html_document:
+    fig_height: 2.5
+    fig_width: 9.5
+---
+
+---
+title: "**UAE Monitoring Stations**"
+output: 
+  html_document:
+    theme: flatly
+author: "Air Quality Research Project"
+date: "January 22, 2017"
+---
+
+
+---
+```{r set_up, message = FALSE, echo = FALSE, warning = FALSE}
+library(threadr)
+library(dygraphs)
+library(tidyr)
+library(leaflet)
+library(readr)
+library(shiny)
+library(rgdal)
+
+# setwd("Z:/_SHARED_FOLDERS/Air Quality/Phase 1/Pathflow of Phase I_DG/Interactive_plots_R")
+
+# Load custom functions
+source("get_data_NCMS.R")
+
+# Time of script running
+date_generation <- str_c("Data queried at ", Sys.time(), ".")
+```
+
+ `Hourly data from all the monitoring stations measuring the pollutant`
+ 
+# 
+
+## 
+
+```{r import_data_for_map, message = FALSE, echo = FALSE, results = "hide", cache = TRUE}
+# Get site locations
+site_info_NCMS <- read_csv("Stations_NCMS_info.csv")
+site_info_EAD <- read_csv("Stations_EAD_info.csv")
+site_info_DM <- read_csv("Stations_DM_info.csv")
+site_info <- rbind(site_info_DM, site_info_EAD, site_info_NCMS)
+
+# data_site_info <- read_csv("Z:/_SHARED_FOLDERS/Air Quality/Phase 1/Pathflow of Phase I_DG/Interactive_plots_R/Stations_NCMS_info.csv")
+
+site_info <- site_info%>%
+  distinct(Site, Latitude, Longitude)
+
+# load shp file for the UAE
+dir <- "UAE_boundary"
+
+### shapefile for UAE
+shp_UAE <- readOGR(dsn = dir, layer = "uae_emirates")
+
+# ----- Transform to EPSG 4326 - WGS84 (required)
+shp_UAE <- spTransform(shp_UAE, CRS("+init=epsg:4326"))
+
+```
+#
+ 
+##
+
+```{r map, fig.height = 8, echo = FALSE, message = FALSE, cache = TRUE}
+# Build map
+interactive_map_index(site_info)
+```
+
+ 
+ 

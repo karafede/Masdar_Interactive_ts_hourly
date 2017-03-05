@@ -1,0 +1,93 @@
+
+---
+title: "**Wind Speed from Dubai Municipality (DM) stations in the UAE**"
+output:
+  html_document:
+    fig_height: 2.5
+    fig_width: 9.5
+    theme: flatly
+---
+
+```{r set_up, message = FALSE, echo = FALSE, warning = FALSE}
+library(threadr)
+library(dygraphs)
+library(tidyr)
+library(leaflet)
+library(readr)
+library(shiny)
+
+# Load custom functions
+source("get_data_DM.R")
+
+# Time of script running
+date_generation <- str_c("Data queried at ", Sys.time(), ".")
+```
+# 
+
+## 
+```{r import_data, message = FALSE, echo = FALSE, results = "hide", cache = TRUE}
+
+# Site string
+pollutant <- "Wind Speed"
+
+# Get data from all the station
+interactive_plot(time_series_Deira, station = "Deira", group = pollutant, pollu= "Wind Speed")
+interactive_plot(time_series_Karama, station = "Karama", group = pollutant, pollu= "Wind Speed")
+interactive_plot(time_series_Zabeel, station = "Zabeel", group = pollutant, pollu= "Wind Speed")
+interactive_plot(time_series_Safa, station = "Safa", group = pollutant, pollu= "Wind Speed")
+interactive_plot(time_series_JABELALIVILLAGE, station = "JEBEL ALI VILLAGE", group = pollutant, pollu= "Wind Speed")
+interactive_plot(time_series_EMIRATESHILLS, station = "EMIRATES HILLS", group = pollutant, pollu= "Wind Speed")
+interactive_plot(time_series_DUBAIAIRPORT, station = "DUBAI AIR PORT", group = pollutant, pollu= "Wind Speed")
+interactive_plot(time_series_MUSHRIF, station = "MUSHRIF", group = pollutant, pollu= "Wind Speed")
+interactive_plot(time_series_Hatta, station = "Hatta", group = pollutant, pollu= "Wind Speed")
+interactive_plot(time_series_JABELALIPORT, station = "JEBEL ALI PORT", group = pollutant, pollu= "Wind Speed")
+interactive_plot(time_series_Warsan, station = "Warsan", group = pollutant, pollu= "Wind Speed")
+interactive_plot(time_series_SHKZAYEDROAD, station = "SHK. ZAYED ROAD", group = pollutant, pollu= "Wind Speed")
+interactive_plot(time_series_SHKMOHDBINZAYEDROAD, station = "SHK. MOHD. BIN ZAYED ROAD", group = pollutant, pollu= "Wind Speed")
+
+```
+
+ `Hourly data from all the monitoring stations measuring the pollutant`
+ 
+# 
+
+## 
+
+```{r plot_NCMS_NO2, echo = FALSE, cache = TRUE}
+# Message
+date_generation
+
+# Plot
+interactive_plot(time_series_Deira, station = "Deira", group = pollutant, pollu= "Wind Speed")
+interactive_plot(time_series_Karama, station = "Karama", group = pollutant, pollu= "Wind Speed")
+interactive_plot(time_series_Zabeel, station = "Zabeel", group = pollutant, pollu= "Wind Speed")
+interactive_plot(time_series_Safa, station = "Safa", group = pollutant, pollu= "Wind Speed")
+interactive_plot(time_series_JABELALIVILLAGE, station = "JEBEL ALI VILLAGE", group = pollutant, pollu= "Wind Speed")
+interactive_plot(time_series_EMIRATESHILLS, station = "EMIRATES HILLS", group = pollutant, pollu= "Wind Speed")
+interactive_plot(time_series_DUBAIAIRPORT, station = "DUBAI AIR PORT", group = pollutant, pollu= "Wind Speed")
+interactive_plot(time_series_MUSHRIF, station = "MUSHRIF", group = pollutant, pollu= "Wind Speed")
+interactive_plot(time_series_Hatta, station = "Hatta", group = pollutant, pollu= "Wind Speed")
+interactive_plot(time_series_JABELALIPORT, station = "JEBEL ALI PORT", group = pollutant, pollu= "Wind Speed")
+interactive_plot(time_series_Warsan, station = "Warsan", group = pollutant, pollu= "Wind Speed")
+interactive_plot(time_series_SHKZAYEDROAD, station = "SHK. ZAYED ROAD", group = pollutant, pollu= "Wind Speed")
+interactive_plot(time_series_SHKMOHDBINZAYEDROAD, station = "SHK. MOHD. BIN ZAYED ROAD", group = pollutant, pollu= "Wind Speed")
+
+```
+
+
+```{r import_data_for_map, message = FALSE, echo = FALSE, results = "hide", cache = TRUE}
+# Get site locations
+coord_site <- get_sites(var = "Wind Speed")
+
+```
+#
+ 
+##
+
+```{r map, fig.height = 8, echo = FALSE, message = FALSE, cache = TRUE}
+# Build map
+interactive_map(coord_site)
+```
+
+ 
+ 
